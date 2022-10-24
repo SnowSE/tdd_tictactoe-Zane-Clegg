@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\TDD_ClassLib",
+    "\\tictactoe",
+    "\\tictactoe\\Features",
+    "\\tictactoe\\StepDefinitions"
   ],
-  "SelectedNode": "\\.git",
+  "SelectedNode": "\\tictactoe\\Features\\TicTacToe.feature",
   "PreviewInSolutionExplorer": false
 }
