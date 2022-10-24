@@ -1,0 +1,12 @@
+C:\Users\zaner\source\repos\tdd_tictactoe-Zane-Clegg\TTTclassLib\obj\Debug\net6.0\TTTclassLib.csproj.AssemblyReference.cache
+C:\Users\zaner\source\repos\tdd_tictactoe-Zane-Clegg\TTTclassLib\obj\Debug\net6.0\TTTclassLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zaner\source\repos\tdd_tictactoe-Zane-Clegg\TTTclassLib\obj\Debug\net6.0\TTTclassLib.AssemblyInfoInputs.cache
+C:\Users\zaner\source\repos\tdd_tictactoe-Zane-Clegg\TTTclassLib\obj\Debug\net6.0\TTTclassLib.AssemblyInfo.cs
+C:\Users\zaner\source\repos\tdd_tictactoe-Zane-Clegg\TTTclassLib\obj\Debug\net6.0\TTTclassLib.csproj.CoreCompileInputs.cache
+C:\Users\zaner\source\repos\tdd_tictactoe-Zane-Clegg\TTTclassLib\bin\Debug\net6.0\TTTclassLib.deps.json
+C:\Users\zaner\source\repos\tdd_tictactoe-Zane-Clegg\TTTclassLib\bin\Debug\net6.0\TTTclassLib.dll
+C:\Users\zaner\source\repos\tdd_tictactoe-Zane-Clegg\TTTclassLib\bin\Debug\net6.0\TTTclassLib.pdb
+C:\Users\zaner\source\repos\tdd_tictactoe-Zane-Clegg\TTTclassLib\obj\Debug\net6.0\TTTclassLib.dll
+C:\Users\zaner\source\repos\tdd_tictactoe-Zane-Clegg\TTTclassLib\obj\Debug\net6.0\refint\TTTclassLib.dll
+C:\Users\zaner\source\repos\tdd_tictactoe-Zane-Clegg\TTTclassLib\obj\Debug\net6.0\TTTclassLib.pdb
+C:\Users\zaner\source\repos\tdd_tictactoe-Zane-Clegg\TTTclassLib\obj\Debug\net6.0\ref\TTTclassLib.dll

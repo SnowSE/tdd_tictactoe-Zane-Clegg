@@ -1,11 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\TDD_ClassLib",
-    "\\tictactoe",
-    "\\tictactoe\\Features",
-    "\\tictactoe\\StepDefinitions"
+    "\\SpecFlowTTT",
+    "\\SpecFlowTTT\\Drivers",
+    "\\SpecFlowTTT\\Features",
+    "\\SpecFlowTTT\\StepDefinitions",
+    "\\TTTclassLib"
   ],
-  "SelectedNode": "\\tictactoe\\Features\\TicTacToe.feature",
   "PreviewInSolutionExplorer": false
 }
