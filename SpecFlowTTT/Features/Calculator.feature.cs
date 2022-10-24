@@ -107,9 +107,12 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 10
-testRunner.Given("x plays in (0,1)", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+testRunner.Given("grid is initialized", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 11
+testRunner.And("x plays in (0,1)", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 12
 testRunner.Then("x is found in cell (0,1)", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -123,7 +126,7 @@ testRunner.Then("x is found in cell (0,1)", ((string)(null)), ((TechTalk.SpecFlo
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("x wins", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 13
+#line 14
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -143,37 +146,28 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 14
-testRunner.Given("x plays in (0,0)", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line hidden
 #line 15
-testRunner.And("o plays in (1,0)", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+testRunner.Given("grid is initialized", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 16
-testRunner.And("x plays in (0,1)", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+testRunner.And("x plays in (0,0)", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 17
-testRunner.And("o plays in (1,2)", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+testRunner.And("o plays in (1,0)", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 18
-testRunner.And("x plays in (0,2)", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+testRunner.And("x plays in (0,1)", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 19
-testRunner.And("o plays in (2,1)", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+testRunner.And("o plays in (1,2)", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 20
-testRunner.And("x plays in (1,1)", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+testRunner.And("x plays in (0,2)", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 21
-testRunner.And("o plays in (2,2)", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 22
-testRunner.And("x plays in (2,0)", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 23
 testRunner.When("checking for a winner", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 24
+#line 22
 testRunner.Then("the winner is x", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -187,7 +181,7 @@ testRunner.Then("the winner is x", ((string)(null)), ((TechTalk.SpecFlow.Table)(
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("normal game loop", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 26
+#line 24
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -207,25 +201,28 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 27
-testRunner.Given("x plays in (0,1)", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 25
+testRunner.Given("grid is initialized", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 28
+#line 26
+testRunner.And("x plays in (0,1)", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 27
 testRunner.And("o plays in (1,1)", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 29
+#line 28
 testRunner.And("x plays in (0,0)", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 30
+#line 29
 testRunner.When("checking for a winner", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 31
+#line 30
 testRunner.Then("the winner is unknown", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 32
+#line 31
 testRunner.When("asking who\'s turn", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 33
+#line 32
 testRunner.Then("player o\'s turn", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }

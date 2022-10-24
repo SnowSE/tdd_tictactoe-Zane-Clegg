@@ -7,24 +7,23 @@ Link to a feature: [Calculator](SpecFlowTTT/Features/Calculator.feature)
 
 @mytag
 Scenario: pieces played
-Given x plays in (0,1)
+Given grid is initialized
+And x plays in (0,1)
 Then x is found in cell (0,1)
 
 Scenario: x wins
-Given x plays in (0,0)
+Given grid is initialized
+And x plays in (0,0)
 And o plays in (1,0)
 And x plays in (0,1)
 And o plays in (1,2)
 And x plays in (0,2)
-And o plays in (2,1)
-And x plays in (1,1)
-And o plays in (2,2)
-And x plays in (2,0)
 When checking for a winner
 Then the winner is x
 
 Scenario: normal game loop
-Given x plays in (0,1)
+Given grid is initialized
+And x plays in (0,1)
 And o plays in (1,1)
 And x plays in (0,0)
 When checking for a winner

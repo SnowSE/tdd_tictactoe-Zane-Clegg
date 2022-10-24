@@ -9,6 +9,20 @@ namespace SpecFlowTTT.StepDefinitions
     {
         Class1 _methods = new Class1();
 
+        private ScenarioContext _scenarioContext;
+        public SpecFlowTTTStepDefinitions(ScenarioContext scenarioContext)
+        {
+            _scenarioContext = scenarioContext;
+        }
+
+
+        [Given(@"grid is initialized")]
+        public void GivenGridIsInitialized()
+        {
+            _methods.InitializeGrid();
+        }
+
+
         [Given(@"x plays in \((.*),(.*)\)")]
         public void GivenXPlaysIn(int x, int y)
         {
@@ -30,13 +44,13 @@ namespace SpecFlowTTT.StepDefinitions
         [When(@"checking for a winner")]
         public void WhenCheckingForAWinner()
         {
-            _methods.WinCondition();
+           _scenarioContext.Add("xWinner", _methods.WinCondition());
         }
 
         [Then(@"the winner is x")]
         public void ThenTheWinnerIs()
         {
-            Convert.ToString(_methods.WinCondition()).Should().Be("x has won");
+            _scenarioContext.Get<string>("xWinner").Should().Be("x has won");
         }
 
         [Then(@"the winner is unknown")]
@@ -48,13 +62,13 @@ namespace SpecFlowTTT.StepDefinitions
         [When(@"asking who's turn")]
         public void WhenAskingWhosTurn()
         {
-            throw new PendingStepException();
+            _scenarioContext.Add("oTurn", _methods.Turn());
         }
 
         [Then(@"player o's turn")]
         public void ThenPlayerOsTurn()
         {
-            Convert.ToString(_methods.turn).Should().Be("o");
+            Convert.ToString(_scenarioContext.Get<char>("oTurn")).Should().Be("o");
         }
     }
 }
