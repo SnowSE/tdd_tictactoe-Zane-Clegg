@@ -5,6 +5,7 @@ using TTTclassLib;
 namespace SpecFlowTTT.StepDefinitions
 {
     [Binding]
+
     public class SpecFlowTTTStepDefinitions
     {
         Class1 _methods = new Class1();

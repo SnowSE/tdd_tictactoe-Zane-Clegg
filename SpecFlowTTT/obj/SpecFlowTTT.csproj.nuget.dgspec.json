@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zaner\\source\\repos\\tdd_tictactoe-Zane-Clegg\\SpecFlowTTT\\SpecFlowTTT.csproj": {}
+    "C:\\Users\\zaner\\Source\\Repos\\tdd_tictactoe-Zane-Clegg\\SpecFlowTTT\\SpecFlowTTT.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zaner\\source\\repos\\tdd_tictactoe-Zane-Clegg\\SpecFlowTTT\\SpecFlowTTT.csproj": {
+    "C:\\Users\\zaner\\Source\\Repos\\tdd_tictactoe-Zane-Clegg\\SpecFlowTTT\\SpecFlowTTT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zaner\\source\\repos\\tdd_tictactoe-Zane-Clegg\\SpecFlowTTT\\SpecFlowTTT.csproj",
+        "projectUniqueName": "C:\\Users\\zaner\\Source\\Repos\\tdd_tictactoe-Zane-Clegg\\SpecFlowTTT\\SpecFlowTTT.csproj",
         "projectName": "SpecFlowTTT",
-        "projectPath": "C:\\Users\\zaner\\source\\repos\\tdd_tictactoe-Zane-Clegg\\SpecFlowTTT\\SpecFlowTTT.csproj",
+        "projectPath": "C:\\Users\\zaner\\Source\\Repos\\tdd_tictactoe-Zane-Clegg\\SpecFlowTTT\\SpecFlowTTT.csproj",
         "packagesPath": "C:\\Users\\zaner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zaner\\source\\repos\\tdd_tictactoe-Zane-Clegg\\SpecFlowTTT\\obj\\",
+        "outputPath": "C:\\Users\\zaner\\Source\\Repos\\tdd_tictactoe-Zane-Clegg\\SpecFlowTTT\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\zaner\\source\\repos\\tdd_tictactoe-Zane-Clegg\\TTTclassLib\\TTTclassLib.csproj": {
-                "projectPath": "C:\\Users\\zaner\\source\\repos\\tdd_tictactoe-Zane-Clegg\\TTTclassLib\\TTTclassLib.csproj"
+              "C:\\Users\\zaner\\Source\\Repos\\tdd_tictactoe-Zane-Clegg\\TTTclassLib\\TTTclassLib.csproj": {
+                "projectPath": "C:\\Users\\zaner\\Source\\Repos\\tdd_tictactoe-Zane-Clegg\\TTTclassLib\\TTTclassLib.csproj"
               }
             }
           }
@@ -93,14 +93,14 @@
         }
       }
     },
-    "C:\\Users\\zaner\\source\\repos\\tdd_tictactoe-Zane-Clegg\\TTTclassLib\\TTTclassLib.csproj": {
+    "C:\\Users\\zaner\\Source\\Repos\\tdd_tictactoe-Zane-Clegg\\TTTclassLib\\TTTclassLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zaner\\source\\repos\\tdd_tictactoe-Zane-Clegg\\TTTclassLib\\TTTclassLib.csproj",
+        "projectUniqueName": "C:\\Users\\zaner\\Source\\Repos\\tdd_tictactoe-Zane-Clegg\\TTTclassLib\\TTTclassLib.csproj",
         "projectName": "TTTclassLib",
-        "projectPath": "C:\\Users\\zaner\\source\\repos\\tdd_tictactoe-Zane-Clegg\\TTTclassLib\\TTTclassLib.csproj",
+        "projectPath": "C:\\Users\\zaner\\Source\\Repos\\tdd_tictactoe-Zane-Clegg\\TTTclassLib\\TTTclassLib.csproj",
         "packagesPath": "C:\\Users\\zaner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zaner\\source\\repos\\tdd_tictactoe-Zane-Clegg\\TTTclassLib\\obj\\",
+        "outputPath": "C:\\Users\\zaner\\Source\\Repos\\tdd_tictactoe-Zane-Clegg\\TTTclassLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

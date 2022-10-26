@@ -6,10 +6,14 @@ Link to a feature: [Calculator](SpecFlowTTT/Features/Calculator.feature)
 ***Further read***: **[Learn more about how to generate Living Documentation](https://docs.specflow.org/projects/specflow-livingdoc/en/latest/LivingDocGenerator/Generating-Documentation.html)**
 
 @mytag
+
 Scenario: pieces played
 Given grid is initialized
 And x plays in (0,1)
 Then x is found in cell (0,1)
+
+
+@notmytag
 
 Scenario: x wins
 Given grid is initialized
